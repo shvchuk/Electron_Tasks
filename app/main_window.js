@@ -10,7 +10,7 @@ class MainWindow extends BrowserWindow {
       frame: false,
       resizable: false,
       show: false,
-      skipTaskbar: true
+      skipTaskbar: true,
     });
 
     this.loadURL(url);
